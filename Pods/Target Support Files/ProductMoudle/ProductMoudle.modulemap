@@ -1,0 +1,6 @@
+framework module ProductMoudle {
+  umbrella header "ProductMoudle-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -6,6 +6,7 @@
 //
 
 #import "AppDelegate.h"
+#import <CTMediator/CTMediator.h>
 
 @interface AppDelegate ()
 
@@ -18,6 +19,13 @@
     // Override point for customization after application launch.
     return YES;
 }
+
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *,id> *)options
+{
+    
+    return [[[CTMediator sharedInstance] performActionWithUrl:url completion:nil] boolValue];
+}
+
 
 
 #pragma mark - UISceneSession lifecycle

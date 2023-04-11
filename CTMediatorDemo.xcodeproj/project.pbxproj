@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		145198DC601740BCCD82FCBB /* Pods_CTMediatorDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7482AAB1630D0A656AFE32C1 /* Pods_CTMediatorDemo.framework */; };
 		65EEEDE129DFC65D0067895E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EEEDE029DFC65D0067895E /* AppDelegate.m */; };
 		65EEEDE429DFC65D0067895E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EEEDE329DFC65D0067895E /* SceneDelegate.m */; };
 		65EEEDE729DFC65D0067895E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EEEDE629DFC65D0067895E /* ViewController.m */; };
@@ -14,9 +15,12 @@
 		65EEEDEC29DFC65F0067895E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65EEEDEB29DFC65F0067895E /* Assets.xcassets */; };
 		65EEEDEF29DFC65F0067895E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65EEEDED29DFC65F0067895E /* LaunchScreen.storyboard */; };
 		65EEEDF229DFC65F0067895E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EEEDF129DFC65F0067895E /* main.m */; };
+		65EEEE5B29E3ADD60067895E /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EEEE5A29E3ADD60067895E /* AccountViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28E99C343B5488F222F9C255 /* Pods-CTMediatorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMediatorDemo.release.xcconfig"; path = "Target Support Files/Pods-CTMediatorDemo/Pods-CTMediatorDemo.release.xcconfig"; sourceTree = "<group>"; };
+		52E7330D147D9C6EFC93087D /* Pods-CTMediatorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTMediatorDemo.debug.xcconfig"; path = "Target Support Files/Pods-CTMediatorDemo/Pods-CTMediatorDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		65EEEDDC29DFC65D0067895E /* CTMediatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTMediatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65EEEDDF29DFC65D0067895E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65EEEDE029DFC65D0067895E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +33,9 @@
 		65EEEDEE29DFC65F0067895E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65EEEDF029DFC65F0067895E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65EEEDF129DFC65F0067895E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65EEEE5929E3ADD60067895E /* AccountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
+		65EEEE5A29E3ADD60067895E /* AccountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		7482AAB1630D0A656AFE32C1 /* Pods_CTMediatorDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTMediatorDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				145198DC601740BCCD82FCBB /* Pods_CTMediatorDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +55,8 @@
 			children = (
 				65EEEDDE29DFC65D0067895E /* CTMediatorDemo */,
 				65EEEDDD29DFC65D0067895E /* Products */,
+				7F2CCA13DD351A89870E3E30 /* Pods */,
+				82179033533BBAF986E2E746 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,8 +82,27 @@
 				65EEEDED29DFC65F0067895E /* LaunchScreen.storyboard */,
 				65EEEDF029DFC65F0067895E /* Info.plist */,
 				65EEEDF129DFC65F0067895E /* main.m */,
+				65EEEE5929E3ADD60067895E /* AccountViewController.h */,
+				65EEEE5A29E3ADD60067895E /* AccountViewController.m */,
 			);
 			path = CTMediatorDemo;
+			sourceTree = "<group>";
+		};
+		7F2CCA13DD351A89870E3E30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52E7330D147D9C6EFC93087D /* Pods-CTMediatorDemo.debug.xcconfig */,
+				28E99C343B5488F222F9C255 /* Pods-CTMediatorDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		82179033533BBAF986E2E746 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7482AAB1630D0A656AFE32C1 /* Pods_CTMediatorDemo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65EEEDF529DFC65F0067895E /* Build configuration list for PBXNativeTarget "CTMediatorDemo" */;
 			buildPhases = (
+				5770D113586630259D128301 /* [CP] Check Pods Manifest.lock */,
 				65EEEDD829DFC65D0067895E /* Sources */,
 				65EEEDD929DFC65D0067895E /* Frameworks */,
 				65EEEDDA29DFC65D0067895E /* Resources */,
+				0B6AAC78292B096EFF315EB8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -111,7 +142,7 @@
 				};
 			};
 			buildConfigurationList = 65EEEDD729DFC65D0067895E /* Build configuration list for PBXProject "CTMediatorDemo" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -141,6 +172,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B6AAC78292B096EFF315EB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CTMediatorDemo/Pods-CTMediatorDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CTMediatorDemo/Pods-CTMediatorDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CTMediatorDemo/Pods-CTMediatorDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5770D113586630259D128301 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CTMediatorDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		65EEEDD829DFC65D0067895E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -150,6 +223,7 @@
 				65EEEDE129DFC65D0067895E /* AppDelegate.m in Sources */,
 				65EEEDF229DFC65F0067895E /* main.m in Sources */,
 				65EEEDE429DFC65D0067895E /* SceneDelegate.m in Sources */,
+				65EEEE5B29E3ADD60067895E /* AccountViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +361,7 @@
 		};
 		65EEEDF629DFC65F0067895E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52E7330D147D9C6EFC93087D /* Pods-CTMediatorDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +389,7 @@
 		};
 		65EEEDF729DFC65F0067895E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28E99C343B5488F222F9C255 /* Pods-CTMediatorDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

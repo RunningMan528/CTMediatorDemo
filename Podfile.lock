@@ -1,0 +1,26 @@
+PODS:
+  - CTMediator (48)
+  - HomeMoudle (0.1.2):
+    - CTMediator
+  - ProductMoudle (0.1.5):
+    - CTMediator
+
+DEPENDENCIES:
+  - HomeMoudle
+  - ProductMoudle
+
+SPEC REPOS:
+  https://github.com/RunningMan528/modulePrivatePod.git:
+    - HomeMoudle
+    - ProductMoudle
+  trunk:
+    - CTMediator
+
+SPEC CHECKSUMS:
+  CTMediator: 3f3578b525b3a46a7a2f92a99922ec40363f4269
+  HomeMoudle: b0aaa8e5e4276871d7bdf735b98f52816eee5003
+  ProductMoudle: d213ad15eda1c547bde41891b3c85be4023f3760
+
+PODFILE CHECKSUM: 9b3fde8e4c09e5f8ab51aa86298336a6d74ed028
+
+COCOAPODS: 1.12.0
